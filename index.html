@@ -45,7 +45,7 @@ formats.</p>
         tr.append("<td>"+(x.name ? x.name : x.version.full + " ("+x.version.abbrev+")")+"</td>");
         tr.append("<td>"+(x.licence_url ? '<a href="'+x.licence_url+'"> '+x.licence+"</a>" : x.licence)+"</td>");
         tr.append("<td>"+(x.lang ? x.lang : "")+"</td>");
-        tr.append('<td><a href="'+x.source+'"> '+x.source+"</a></td>");
+        tr.append('<td>'+(x.source ? '<a href="'+x.source+'"> '+x.source+"</a>" : "Unknown")+"</td>");
         var fileList = $("<ul>");
         for (f in x.files) {
             if (f == "raw") {
