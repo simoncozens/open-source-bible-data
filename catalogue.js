@@ -99,4 +99,14 @@ Catalogue = [
 			sqlite: "cooked/sqlite/se.db"
 		}
 	},	
+    {
+        type: "other",
+		name: "Brown-Driver-Briggs Hebrew Lexicon with Strong's number tags",
+		licence: "Public Domain",
+		source: "https://github.com/openscriptures/HebrewLexicon",
+		files: {
+            xml: "cooked/strongified-bdb.xml",
+            sqlite: "cooked/sqlite/bdb.db"
+        }
+    }  
 ];
