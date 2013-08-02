@@ -35,7 +35,8 @@ Catalogue = [
 			raw: { type: "local", file: "raw/SBLGNT.osis.xml", format: "OSIS" },
 			simpleXml: "cooked/simple-xml/sbl.xml",
 			sqlite: "cooked/sqlite/sbl.db"
-		}
+		},
+        note: "Marked up with morphological tags from <a href='https://github.com/morphgnt/sblgnt'>morphgnt</a> and Strongs numbers from <a href='https://github.com/morphgnt/strongs-dictionary-xml'>strongs-dictionary-xml</a>",
 	},
 	{
 		type: "commentary",

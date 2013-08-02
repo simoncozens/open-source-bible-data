@@ -31,7 +31,7 @@
 texts, tools and data in multiple languages and in multiple computer
 formats.</p>
 
-    <table id="catalogue" class="table table-striped">
+    <table id="catalogue" class="table">
         <tr><th>Type</th><th>Name</th><th>Licence</th><th>Language</th><th>Source</th><th>Files</th></tr>
     </table>
     </div>
@@ -57,6 +57,7 @@ formats.</p>
         }
         tr.append($("<td/>").append(fileList));
         $("#catalogue").append(tr);
+        if (x.note) { $("#catalogue").append("<tr><td></td><td colspan=5>"+x.note+"</td></tr>"); }
     });
     </script>
 
