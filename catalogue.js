@@ -101,13 +101,22 @@ Catalogue = [
 		}
 	},	
     {
-        type: "other",
+        type: "lexicon",
 		name: "Brown-Driver-Briggs Hebrew Lexicon with Strong's number tags",
 		licence: "Public Domain",
 		source: "https://github.com/openscriptures/HebrewLexicon",
 		files: {
             xml: "cooked/strongified-bdb.xml",
             sqlite: "cooked/sqlite/bdb.db"
+        }
+    },
+    {
+        type: "lexicon",
+		name: "Strong's Hebrew Dictionary",
+		licence: "Public Domain",
+		source: "https://github.com/openscriptures/HebrewLexicon",
+		files: {
+            lift: "cooked/HebrewStrong-lift.xml",
         }
     },
     {
