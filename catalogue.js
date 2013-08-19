@@ -107,6 +107,7 @@ Catalogue = [
 		source: "https://github.com/openscriptures/HebrewLexicon",
 		files: {
             xml: "cooked/strongified-bdb.xml",
+            lift: "cooked/strongified-bdb-lift.xml",
             sqlite: "cooked/sqlite/bdb.db"
         }
     },
