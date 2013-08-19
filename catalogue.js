@@ -109,5 +109,14 @@ Catalogue = [
             xml: "cooked/strongified-bdb.xml",
             sqlite: "cooked/sqlite/bdb.db"
         }
-    }  
+    },
+    {
+        type: "other",
+        name: "Bible-in-a-year reading programme",
+        licence: "Unknown",
+        source: "http://wolf.ox.ac.uk/~sjg/biay.xlsx",
+        files: {
+            json: "cooked/bible-in-a-year.json"
+        },
+    }
 ];
